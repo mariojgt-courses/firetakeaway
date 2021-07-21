@@ -77,6 +77,7 @@ class OrderApiController extends Controller
 
     public function destroy($id)
     {
+        // You can delete the order in here
         dd($id);
     }
 

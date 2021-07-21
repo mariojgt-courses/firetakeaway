@@ -13,6 +13,13 @@ use Validator;
 
 class AuthApiControler extends Controller
 {
+    /**
+     * Login Logic
+     *
+     * @param Request $request
+     *
+     * @return [blade]
+     */
     public function login(Request $request)
     {
         // Validate the user
@@ -46,6 +53,13 @@ class AuthApiControler extends Controller
         }
     }
 
+    /**
+     * Aplication Registration logic
+     *
+     * @param Request $request
+     *
+     * @return [type]
+     */
     public function register(Request $request)
     {
         // Validate the data
